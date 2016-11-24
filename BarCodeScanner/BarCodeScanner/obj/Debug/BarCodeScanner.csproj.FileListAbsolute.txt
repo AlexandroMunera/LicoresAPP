@@ -1,0 +1,13 @@
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\BarCodeScanner.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\BarCodeScanner.pdb
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Acr.BarCodes.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Acr.BarCodes.Interface.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Xamarin.Forms.Core.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Xamarin.Forms.Core.xml
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\obj\Debug\BarCodeScanner.csprojResolveAssemblyReference.cache
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\obj\Debug\BarCodeScanner.dll
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\obj\Debug\BarCodeScanner.pdb
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\obj\Debug\BarCodeScanner.dll.mdb
+D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner\bin\Debug\BarCodeScanner.dll.mdb

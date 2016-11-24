@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Downloads\BarCodeScanner\BarCodeScanner\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
