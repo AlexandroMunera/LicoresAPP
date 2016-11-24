@@ -12,6 +12,8 @@ namespace BarCodeScanner
         public App()
         {
             // The root page of your application
+            //MainPage = new Page1();
+
             MainPage = new HomePage();
         }
 

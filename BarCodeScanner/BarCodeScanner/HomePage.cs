@@ -11,12 +11,10 @@ namespace BarCodeScanner
     public class HomePage : ContentPage
     {
         public HomePage()
-        {
-
-            //Poner fondo               
+        {               
             this.Title = "Titulo";
-            this.BackgroundColor = Color.Aqua;
-           // this.BackgroundImage = "fondo.png";
+            //this.BackgroundColor = Color.Aqua; 
+            this.BackgroundImage = "@drawable/fondo.png"; //No sirvió
 
             Button scanBtn = new Button
             {
@@ -86,7 +84,31 @@ namespace BarCodeScanner
             var layout = new StackLayout { Padding = 80 };           
 
             layout.Children.Add(scanBtn);
-            layout.Children.Add(scanParejaBtn);            
+            layout.Children.Add(scanParejaBtn);
+
+
+            //No funcionó para poner el fondo
+            //var backgroundImage = new Image()
+            //{
+            //    Source = FileImageSource.FromFile("fondo.png")
+            //};
+
+            //var relativeLayout = new RelativeLayout();
+
+            //relativeLayout.Children.Add(backgroundImage,
+            //    Constraint.Constant(0),
+            //    Constraint.Constant(0),
+            //    Constraint.RelativeToParent((parent) => { return parent.Width; }),
+            //    Constraint.RelativeToParent((parent) => { return parent.Height; }));
+
+            //relativeLayout.Children.Add(layout,
+            //    Constraint.Constant(0),
+            //    Constraint.Constant(0),
+            //    Constraint.RelativeToParent((parent) => { return parent.Width; }),
+            //    Constraint.RelativeToParent((parent) => { return parent.Height; }));
+
+
+            //Content = relativeLayout;
 
             Content = layout;
 

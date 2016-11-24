@@ -73,7 +73,6 @@ D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\BarCodeScanner.Droid.dll
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\BarCodeScanner.Droid.pdb
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\android\bin\BarCodeScanner.Droid.apk
-D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable\icon.png
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-hdpi\icon.png
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-xhdpi\icon.png
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
@@ -105,5 +104,10 @@ D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable\icon.png
+D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-hdpi\fondo.png
+D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-xhdpi\fondo.png
+D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable-xxhdpi\fondo.png
+D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\res\drawable\fondo.png
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\BarCodeScanner.Droid.dll.mdb
 D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\bin\Debug\BarCodeScanner.Droid.dll.mdb
