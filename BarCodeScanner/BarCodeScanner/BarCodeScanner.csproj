@@ -60,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fondo.jpg" />
+    <EmbeddedResource Include="fondo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />

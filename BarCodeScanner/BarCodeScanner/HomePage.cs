@@ -12,6 +12,12 @@ namespace BarCodeScanner
     {
         public HomePage()
         {
+
+            //Poner fondo               
+            this.Title = "Titulo";
+            this.BackgroundColor = Color.Aqua;
+           // this.BackgroundImage = "fondo.png";
+
             Button scanBtn = new Button
             {
                 Text = "Verificar Producto",
@@ -77,77 +83,13 @@ namespace BarCodeScanner
                 }
             };
 
-
-            var layout = new StackLayout { Padding = 80 };
-
-            //var yellowBox = new BoxView
-            //{
-            //    Color = Color.Yellow,
-            //    VerticalOptions = LayoutOptions.FillAndExpand,
-            //    HorizontalOptions = LayoutOptions.FillAndExpand
-            //};
-
-            //var greenBox = new BoxView
-            //{
-            //    Color = Color.Green,
-            //    VerticalOptions = LayoutOptions.FillAndExpand,
-            //    HorizontalOptions = LayoutOptions.FillAndExpand
-            //};
-
-            //var blueBox = new BoxView
-            //{
-            //    Color = Color.Blue,
-            //    VerticalOptions = LayoutOptions.FillAndExpand,
-            //    HorizontalOptions = LayoutOptions.FillAndExpand,
-            //    HeightRequest = 75
-            //};
+            var layout = new StackLayout { Padding = 80 };           
 
             layout.Children.Add(scanBtn);
-            layout.Children.Add(scanParejaBtn);
-            
-
-            //layout.Children.Add(yellowBox);
-            //layout.Children.Add(greenBox);
-            //layout.Children.Add(blueBox);
-            //layout.Spacing = 10;
-            layout.BackgroundColor = Color.Aqua;
-            
+            layout.Children.Add(scanParejaBtn);            
 
             Content = layout;
 
-            //        Content = new StackLayout
-            //        {
-            //            Children = {
-            //                scanBtn
-            //}
-            //        };
-
-
-            //var myImage = new Image()
-            //{
-            //    Source = FileImageSource.FromUri(
-            //new Uri("http://xamarin.com/content/images/pages/index/hero-slide.jpg"))
-            //};
-
-            //var myImage = new Image { Aspect = Aspect.AspectFit };
-            //myImage.Source = ImageSource.FromFile("fondo.jpg");
-
-            //RelativeLayout layout = new RelativeLayout();
-
-            //layout.Children.Add(myImage,
-            //    Constraint.Constant(0),
-            //    Constraint.Constant(0),
-            //    Constraint.RelativeToParent((parent) => { return parent.Width; }),
-            //    Constraint.RelativeToParent((parent) => { return parent.Height; }));
-
-            //layout.Children.Add(scanBtn,
-            //    Constraint.Constant(0),
-            //    Constraint.Constant(0),
-            //    Constraint.RelativeToParent((parent) => { return parent.Width; }),
-            //    Constraint.RelativeToParent((parent) => { return parent.Height; }));
-
-
-            //Content = layout;
         }
     }
 }
