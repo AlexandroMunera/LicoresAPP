@@ -3,12 +3,14 @@
   <Jars></Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile\library_project_imports\assets</ResolvedAssetDirectory>
@@ -16,6 +18,7 @@
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Acr.BarCodes.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\zxing.monoandroid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Users\fmunera\Source\Repos\LicoresAPP\BarCodeScanner\BarCodeScanner.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.stamp</ResolvedResourceDirectoryStamp>

@@ -9,17 +9,20 @@ namespace BarCodeScanner
 {
     public class App : Application
     {
+        private HomePage _homePage;
+        private Productos _productos;
+
         public App()
         {
-            // The root page of your application
-            //MainPage = new Page1();
+            _homePage = new HomePage();
+            _productos = new Productos();
 
-            MainPage = new HomePage();
+            MainPage = _productos;
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            _productos.Load();
         }
 
         protected override void OnSleep()

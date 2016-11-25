@@ -11,7 +11,7 @@ namespace BarCodeScanner
     public class HomePage : ContentPage
     {
         public HomePage()
-        {               
+        {
             this.Title = "Titulo";
             //this.BackgroundColor = Color.Aqua; 
             this.BackgroundImage = "@drawable/fondo.png"; //No sirvió
@@ -19,6 +19,13 @@ namespace BarCodeScanner
             Button scanBtn = new Button
             {
                 Text = "Verificar Producto",
+                Font = Font.SystemFontOfSize(14, FontAttributes.Bold),
+                BorderWidth = 1,
+                HeightRequest = 42,
+                BackgroundColor = Color.Green,
+                BorderColor = Color.Black,
+                BorderRadius = 5,
+                TextColor = Color.White,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand
 
@@ -27,6 +34,13 @@ namespace BarCodeScanner
             Button scanParejaBtn = new Button
             {
                 Text = "Scanear la pareja",
+                Font = Font.SystemFontOfSize(14, FontAttributes.Bold),
+                BorderWidth = 1,
+                HeightRequest = 42,
+                BackgroundColor = Color.Green,
+                BorderColor = Color.Black,
+                BorderRadius = 5,
+                TextColor = Color.White,
                 IsVisible = false,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand
@@ -81,7 +95,7 @@ namespace BarCodeScanner
                 }
             };
 
-            var layout = new StackLayout { Padding = 80 };           
+            var layout = new StackLayout { Padding = 80 };
 
             layout.Children.Add(scanBtn);
             layout.Children.Add(scanParejaBtn);
