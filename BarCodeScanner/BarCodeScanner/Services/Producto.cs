@@ -20,6 +20,8 @@ namespace BarCodeScanner
         [JsonProperty]
         public bool Status { get; set; }
 
+        public string codigo2 { get; set; }
+
         [Version]
         public string Version { get; set; }
     }

@@ -13,7 +13,9 @@ namespace BarCodeScanner
     public partial class Productos : ContentPage
     {
         private AzureClient _client;
+
         public ObservableCollection<Producto> Items { get; set; }
+
         public Command RefreshCommand { get; set; }
 
         public Productos()

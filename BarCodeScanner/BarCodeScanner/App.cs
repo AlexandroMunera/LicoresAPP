@@ -17,7 +17,7 @@ namespace BarCodeScanner
             _homePage = new HomePage();
             _productos = new Productos();
 
-            MainPage = _productos;
+            MainPage = _homePage;
         }
 
         protected override void OnStart()

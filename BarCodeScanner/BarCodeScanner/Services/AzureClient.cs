@@ -19,10 +19,35 @@ namespace BarCodeScanner.Services
             _table = _client.GetTable<Producto>();
         }
 
-        public Task<IEnumerable<Producto>> GetProductos()
+        public async Task<IEnumerable<Producto>> GetProductos()
         {
-            return _table.ToEnumerableAsync();
+            return await _table.ToEnumerableAsync();
         }
 
+        public async Task<Producto> ValidarProducto(string valor)
+        {
+            try
+            {
+                //var datos = _table.Where(p => p.Id == valor).ToListAsync();
+                Producto producto = await _table.LookupAsync(valor);
+
+                if (producto == null)
+                {
+                    return null;
+                }
+
+                return producto;
+            }
+            catch (Exception)
+            {
+                return new Producto();
+            }
+                        
+        }
+
+        public async Task ActualizarProducto(Producto _producto)
+        {
+            await _table.UpdateAsync(_producto);
+        }
     }
-}
+}   
