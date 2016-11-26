@@ -73,7 +73,17 @@ namespace BarCodeScanner
                     {
                         if (_producto.Status) //Preguntar si esta activo o no
                         {
-                            await this.DisplayAlert("Verificado !", "Este producto esta certificado y proviene de una fuente confiable, puede consumirse", "OK");
+                            await this.DisplayAlert("Verificado !", "Este producto esta certificado y proviene de una fuente confiable, puede consumirse \n\n " +
+                             "Información: \n\n" +
+                             "Producto: " +_producto.Nombre + " \n" +
+                             "Presentación: " +_producto.presentacion +" \n" +
+                             "Fabricante: " + _producto.fabricante + " \n" +
+                             "Volumen: " + _producto.volumen + " \n" +
+                             "Grados Alcohol: " + _producto.gradosAlcohol + " \n" +
+                             "Lote: " + _producto.lote + " \n" +
+                             "Fabricación: " + _producto.fechaFabricacion.Year + "/" + _producto.fechaFabricacion.Month + "/" + _producto.fechaFabricacion.Day + "\n" +
+                             "Vencimiento: " + _producto.fechaVencimiento.Year + "/" + _producto.fechaVencimiento.Month + "/" + _producto.fechaVencimiento.Day + "\n" +
+                             "", "OK");
 
                             //Habilitar el botón para scanear la pareja
                             scanParejaBtn.IsVisible = true;

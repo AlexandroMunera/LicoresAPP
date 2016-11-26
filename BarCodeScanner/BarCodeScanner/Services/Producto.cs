@@ -20,9 +20,32 @@ namespace BarCodeScanner
         [JsonProperty]
         public bool Status { get; set; }
 
+        [JsonProperty]
         public string codigo2 { get; set; }
 
         [Version]
         public string Version { get; set; }
+
+        [JsonProperty]
+        public string presentacion { get; set; }
+
+        [JsonProperty]
+        public string fabricante { get; set; }
+
+        [JsonProperty]
+        public Decimal volumen { get; set; }
+
+        [JsonProperty]
+        public string gradosAlcohol { get; set; }
+
+        [JsonProperty]
+        public string lote { get; set; }
+
+        [JsonProperty]
+        public DateTime fechaFabricacion { get; set; }
+
+        [JsonProperty]
+        public DateTime fechaVencimiento { get; set; }      
+
     }
 }
