@@ -37,6 +37,13 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="HomePage.cs" />
+    <Compile Include="ListasDemo.cs" />
+    <Compile Include="NavegacionMainPage.xaml.cs">
+      <DependentUpon>NavegacionMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavegacionSecondPage.xaml.cs">
+      <DependentUpon>NavegacionSecondPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
     </Compile>
@@ -94,6 +101,18 @@
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="Images\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NavegacionMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NavegacionSecondPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

@@ -19,7 +19,7 @@ namespace BarCodeScanner
             _client = new AzureClient();
 
 
-            this.Title = "Titulo";
+            this.Title = "Toma Seguro";
             //this.BackgroundColor = Color.Aqua; 
             this.BackgroundImage = "@drawable/fondo.png"; //No sirvió
 
@@ -54,6 +54,22 @@ namespace BarCodeScanner
 
             };
 
+
+            Button btnVerProductos = new Button
+            {
+                Text = "Ver productos",
+                Font = Font.SystemFontOfSize(14, FontAttributes.Bold),
+                BorderWidth = 1,
+                HeightRequest = 42,
+                BackgroundColor = Color.Green,
+                BorderColor = Color.Black,
+                BorderRadius = 5,
+                TextColor = Color.White,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                HorizontalOptions = LayoutOptions.CenterAndExpand
+
+            };
+
             scanBtn.Clicked += async (sender, args) =>
             {
                 scanParejaBtn.IsVisible = false;
@@ -73,6 +89,8 @@ namespace BarCodeScanner
                     {
                         if (_producto.Status) //Preguntar si esta activo o no
                         {
+                            //Tomar una foto y mostrarla 
+
                             await this.DisplayAlert("Verificado !", "Este producto esta certificado y proviene de una fuente confiable, puede consumirse \n\n " +
                              "Información: \n\n" +
                              "Producto: " +_producto.Nombre + " \n" +
@@ -91,11 +109,16 @@ namespace BarCodeScanner
                         }
                         else
                         {
+                            //Poner una animación de cuidado si lo va a consumir
                             await this.DisplayAlert("Alerta !", "Este producto esta certificado y proviene de una fuente confiable, pero ya se le ha realizado el doble scaneo ", "OK");
+
+
                         }
                     }
                     else
                     {
+                        //Guardar la ubicación y ponerla en la base de datos de establecimientos no confiables 
+
                         await this.DisplayAlert("¡ CUIDADO !", "Este producto NO esta certificado, no proviene de una fuente confiable.", "OK");
                     }
                 }
@@ -128,10 +151,13 @@ namespace BarCodeScanner
                 }
             };
 
-            var layout = new StackLayout { Padding = 80 };
+            btnVerProductos.Clicked += btnVerProductos_Clicked;
+
+            var layout = new StackLayout { Padding = 80, Spacing = 10};
 
             layout.Children.Add(scanBtn);
             layout.Children.Add(scanParejaBtn);
+            layout.Children.Add(btnVerProductos);
 
 
             //No funcionó para poner el fondo
@@ -160,5 +186,11 @@ namespace BarCodeScanner
             Content = layout;
 
         }
+
+        private void btnVerProductos_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Productos());
+        }
+        
     }
 }
